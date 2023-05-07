@@ -1,0 +1,63 @@
+.gamers{
+    background-color: #d1d1d1;
+    padding-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    &__text1{
+        display: flex;
+        justify-content: center;
+    }
+    &__text2{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    &__st1{
+        font-size: 30px;
+    }
+    &__st2{
+        font-size: 20px;
+    }
+    &__swiper{
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__lrm{
+        padding-top: 5px;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        width: 249px;
+    }
+    &__div{
+        padding: 40px;
+        border-radius: 15px;
+        background-color: #FFFFFF;
+    }
+    &__img{
+        display: flex;
+        justify-content: center;
+    }
+    &__p{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    &__divstars{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    &__swiper{
+        display: flex;
+        justify-content: space-around;
+    }
+    &__div2{
+        max-height: 300px;
+        background-color: #FFFFFF;
+    }
+    
+}
+
+

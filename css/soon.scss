@@ -1,0 +1,101 @@
+.soon{
+    @media screen and (max-width: 500px ) {
+        display: none;
+    }
+    padding-top: 100px;
+    background-color: #0E0E0E;
+    &__text{
+        font-size: 36px;
+        color: #F5F4F9;
+        padding-bottom: 20px;
+        padding-left: 210px;
+    }
+    &__div{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+   &__pad{
+    padding-top: 15px;
+   }
+   &__text1{
+    color: #FFFFFF;
+    position: absolute;
+    padding-top: 210px;
+    font-size:  28px;
+    width: 342px;
+    padding-left: 36px;
+   }
+   &__text2{
+    color: #FFFFFF;
+    position: absolute;
+    padding-top: 600px;
+    font-size:  28px;
+    width: 342px;
+    padding-left: 36px;
+   }
+   &__but{
+    background: none;
+    //color: #F5F4F9;
+    color: #F5F4F9;
+    border-color: #F5F4F9;
+    text-align: center;
+    width: 152px;
+    height: 42px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 144%;
+    border-radius: 5px;
+   }
+   &__button1{
+    padding-left:52px ;
+    position: absolute;
+    padding-top: 320px;
+   }
+   &__button2{
+    padding-left:52px ;
+    position: absolute;
+    padding-top: 670px;
+   }
+   &__button3{
+    padding-left:680px ;
+    position: absolute;
+    padding-top: 170px;
+   }
+   &__text3{
+    color: #FFFFFF;
+    position: absolute;
+    padding-top: 100px;
+    font-size:  28px;
+    width: 217px;
+    padding-left: 680px;
+   }
+   &__button4{
+    padding-left:680px ;
+    position: absolute;
+    padding-top: 460px;
+   }
+   &__text4{
+    color: #FFFFFF;
+    position: absolute;
+    padding-top: 390px;
+    font-size:  28px;
+    width: 217px;
+    padding-left: 680px;
+   }
+   &__button5{
+    padding-left:680px ;
+    position: absolute;
+    padding-top: 710px;
+   }
+   &__text5{
+    color: #FFFFFF;
+    position: absolute;
+    padding-top: 640px;
+    font-size:  28px;
+    width: 217px;
+    padding-left: 680px;
+   }
+}

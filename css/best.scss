@@ -1,0 +1,39 @@
+.best{
+    
+    padding-top: 100px;
+    &__text{
+        font-size: 30px;
+        padding-left: 200px;
+    }
+    &__img{
+        width: 220px;
+    }
+    &__game{
+        padding-top: 5px;
+    }
+    &__cost{
+        color: #3B44F6;
+        padding-top: 10px;
+    }
+    &__div{
+        @media screen and (max-width: 500px ) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+       gap: 15px;
+       display: flex;
+       justify-content: center;
+    }
+    &__pdv{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__button{
+        background-color: #3B44F6;
+        color: #FFFFFF;
+        border-radius: 5px;
+        border:#3B44F6 ;
+    }
+}

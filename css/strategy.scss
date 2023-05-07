@@ -1,0 +1,37 @@
+.str{
+    &__top{
+        font-size: 50px;
+    }
+    &__mn{
+        display: flex;
+        justify-content: center;
+    }
+    &__game1{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    &__smsl{
+        width: 600px;
+        padding-top:30px ;
+    }
+    &__ops{
+        font-size: 30px;
+    }
+    &__button{
+        width: 90px;
+        height: 38px;
+        border-radius: 5px;
+        background-color: #3B44F6;
+        color: #FFFFFF;
+    }
+    &__f{
+        padding-top: 20px;
+    }
+    &__cost{
+        color: green;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+}

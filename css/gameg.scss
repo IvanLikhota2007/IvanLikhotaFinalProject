@@ -1,0 +1,59 @@
+.gameg{
+    padding-top: 100px;
+    &__text1{
+        font-size: 30px;
+    }
+    &__text2{
+        color: #3B44F6;
+
+    }
+    &__top{
+        
+        display: flex;
+        justify-content: space-around;
+        
+        
+    }
+    &__second{
+        
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    &_img{
+        
+        border-radius: 10px;
+    }
+    &__absl{
+        
+        text-align: center;
+        
+    }
+    &__second{
+        position: relative;
+        text-align: center;
+        @media screen and (max-width: 500px ) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    &__div{
+        width: 199px;
+        height: 199px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__text_second{
+        
+       color: wheat;
+       size: 20px;
+    }
+}
+
+    

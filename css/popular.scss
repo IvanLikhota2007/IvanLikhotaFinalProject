@@ -1,0 +1,38 @@
+.popular{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    &__text{
+        display: flex;
+        justify-content: space-around;
+    }
+    &__text2{
+        color: #3B44F6;
+    }
+    &__text1{
+        font-size: 30px;
+    }
+    &__div1{
+        @media screen and (max-width: 500px ) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    &__div2{
+        @media screen and (max-width: 500px ) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        padding-top: 25px;
+    }
+}
